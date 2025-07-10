@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+SA+Hand:wght@400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: "Edu SA Hand", cursive;
+    overflow: hidden;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    /* align from the top */
+    padding-top: 40px;
+    /* adds breathing space */
+    background-image: linear-gradient(to right, rgba(74, 149, 175, 0.9), rgba(200, 239, 249, 0.8));
+}
+
+.container {
+    display: flex;
+    width: 33%;
+    height: auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    background-color: white;
+    padding: 32px;
+    max-width: 90%;
+    flex-direction: column;
+    border-radius: 11px;
+}
+
+
+.Todo-app .row {
+    width: 100%;
+    display: flex;
+    gap: 0;
+}
+
+.row input {
+    font-family: "Poppins", cursive;
+    width: 80%;
+    width: 80%;
+    height: 26px;
+    border-radius: 8px 0px 0px 7px;
+    background-color: rgba(128, 128, 128, 0.1);
+    border: none;
+    outline: none;
+    padding: 10px 10px 10px 15px;
+    font-weight: 500;
+    font-size: 13px;
+}
+
+.row input:focus {
+    border: 1.5px solid black;
+}
+
+.row button {
+    font-family: "Poppins", cursive;
+    font-size: 14px;
+    width: 20%;
+    border: none;
+    outline: none;
+    border-radius: 0px 11px 8px 0px;
+    background-color: rgb(46, 44, 44);
+    font-weight: 500;
+    color: white;
+    cursor: pointer;
+
+}
+
+ul li {
+    font-family: "Poppins", sans-serif;
+    position: relative;
+    font-size: 17px;
+    padding: 11px 1px 3px 1px;
+    list-style: none;
+}
+
+
+ul li input[type="checkbox"] {
+    position: absolute;
+    top: 12px;
+    right: 476px;
+    height: 17px;
+    width: 17px;
+    cursor: pointer;
+}
+
+ul li .remove-button {
+    font-family: "Poppins", cursive;
+    position: absolute;
+    right: 12px;
+    top: 7px;
+    border: none;
+    outline: none;
+    background-color: rgb(32, 31, 31);
+    color: white;
+    padding: 7px 15px;
+    font-size: 12px;
+    font-weight: 500;
+    border-radius: 16px;
+    cursor: pointer;
+}
+
+.row button:hover {
+    background-color: black;
+    transform: scale(1.02);
+}
+
+ul li .remove-button:hover {
+    background-color: black;
+    transform: scale(1.02);
+
+}
+
+.container .buttons button {
+    font-family: "Poppins", cursive;
+    background-color: rgb(32, 31, 31);
+    border: none;
+    outline: none;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 16px;
+    cursor: pointer;
+    margin-top: 7px;
+    margin-left: 5px;
+}
+
+.container .buttons button:hover {
+    background-color: black;
+    box-shadow: 0px 7px 5px rgba(0, 0, 0, 0.2);
+    transform: scale(1.04);
+}
+
+.header {
+    position: relative;
+    display: flex;
+}
+
+.header img {
+    height: 40px;
+    position: absolute;
+    top: 17px;
+    left: 136px;
+}
