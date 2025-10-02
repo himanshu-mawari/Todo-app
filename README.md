@@ -18,4 +18,4 @@ A sleek to-do list application built using HTML, CSS, and JavaScript. Organize y
 Clone the repo:
 
 ```bash
-git clone https://github.com/sachin-mawari/todo-app.git
+git clone https://github.com/himanshu-mawari/todo-app.git
